@@ -18,7 +18,9 @@
   "scripts": {
     "test": "jshint . && tape test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xxhash-addon": "^2.0.1"
+  },
   "devDependencies": {
     "jshint": "2.5.0",
     "jshint-stylish": "0.2.0",
